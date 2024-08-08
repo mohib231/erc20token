@@ -1,0 +1,101 @@
+Compiling 32 files with Solc 0.8.26
+Solc 0.8.26 finished in 4.82s
+Compiler run successful with warnings:
+Warning (2072): Unused local variable.
+  --> test/TestOurToken.t.sol:50:9:
+   |
+50 |         uint256 amount = 100;
+   |         ^^^^^^^^^^^^^^
+
+Warning (2018): Function state mutability can be restricted to view
+  --> test/TestOurToken.t.sol:28:5:
+   |
+28 |     function test_bobBalance() public {
+   |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Analysing contracts...
+Running tests...
+
+Ran 5 tests for test/TestOurToken.t.sol:TestOurToken
+[PASS] testTransfer() (gas: 34439)
+[PASS] testTransferFrom() (gas: 69981)
+[PASS] testUsersCantMint() (gas: 8735)
+[PASS] test_allowanceWorks() (gas: 79201)
+[PASS] test_bobBalance() (gas: 13748)
+Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in 4.80ms (5.96ms CPU time)
+
+Ran 1 test suite in 13.33ms (4.80ms CPU time): 5 tests passed, 0 failed, 0 skipped (5 total tests)
+Uncovered for script/DeployOurToken.s.sol:
+
+Uncovered for src/OurToken.sol:
+- Function "" (location: source ID 30, line 7, chars 161-269, hits: 0)
+- Line (location: source ID 30, line 8, chars 230-262, hits: 0)
+- Statement (location: source ID 30, line 8, chars 230-262, hits: 0)
+
+Anchors for Contract "console" (solc 0.8.26, source ID 15):
+
+Anchors for Contract "MockERC20" (solc 0.8.26, source ID 21):
+
+Anchors for Contract "DeployOurToken" (solc 0.8.26, source ID 29):
+- IC 100 -> Item 0
+- Creation code
+  - Refers to item: Function "run" (location: source ID 29, line 10, chars 226-404, hits: 5)
+- IC 212 -> Item 1
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 11, chars 279-298, hits: 5)
+- IC 212 -> Item 2
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 11, chars 279-298, hits: 5)
+- IC 307 -> Item 3
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 12, chars 308-350, hits: 5)
+- IC 307 -> Item 4
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 12, chars 308-350, hits: 5)
+- IC 319 -> Item 5
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 12, chars 322-350, hits: 5)
+- IC 408 -> Item 6
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 13, chars 360-378, hits: 5)
+- IC 408 -> Item 7
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 13, chars 360-378, hits: 5)
+- IC 503 -> Item 8
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 14, chars 388-397, hits: 5)
+- IC 503 -> Item 9
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 14, chars 388-397, hits: 5)
+
+Anchors for Contract "MockERC721" (solc 0.8.26, source ID 22):
+
+Anchors for Contract "stdStorageSafe" (solc 0.8.26, source ID 9):
+
+Anchors for Contract "stdToml" (solc 0.8.26, source ID 11):
+
+Anchors for Contract "OurToken" (solc 0.8.26, source ID 30):
+- IC 5 -> Item 10
+- Runtime code
+  - Refers to item: Function "" (location: source ID 30, line 7, chars 161-269, hits: 0)
+- IC 193 -> Item 11
+- Runtime code
+  - Refers to item: Line (location: source ID 30, line 8, chars 230-262, hits: 0)
+- IC 193 -> Item 12
+- Runtime code
+  - Refers to item: Statement (location: source ID 30, line 8, chars 230-262, hits: 0)
+
+Anchors for Contract "stdStorage" (solc 0.8.26, source ID 9):
+
+Anchors for Contract "stdMath" (solc 0.8.26, source ID 8):
+
+Anchors for Contract "stdJson" (solc 0.8.26, source ID 7):
+
+Anchors for Contract "safeconsole" (solc 0.8.26, source ID 23):
+
+Anchors for Contract "TestOurToken" (solc 0.8.26, source ID 31):
+
+Anchors for Contract "stdError" (solc 0.8.26, source ID 5):
+
+Anchors for Contract "StdStyle" (solc 0.8.26, source ID 10):
+
